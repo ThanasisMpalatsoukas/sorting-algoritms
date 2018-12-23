@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="menu">
+      <ul>
+        <li><a href="index.html">Bubble sort</a></li>
+        <li><a href="quicksort.html">Quick sort</a></li>
+        <li><a href="selectionsort.html" class="active">Selection sort</a></li>
+      </ul>
+    </div>
+    <div class="col-lg-9">
+      <!-- main element -->
+      <div class="main" id="main">
+        <canvas id="canvas"></canvas>
+      </div>
+      <!-- end of main element -->
+      <button type="button" class="default_button" name="button" id="finish_fast">Finish fast</button>
+      <button type="button" class="danger_button" name="button" id="reset">Reset</button>
+      <label for="amountOfPoints">Amount of random points</label>
+      <input type="number" name="amountOfPoints" value="10" min="3" max="1000" id="amountOfPoints">
+      <label for="amountOfPoints">Speed of completion for each recursion (ms)</label>
+      <input type="number" name="speed" value="200" id="speed">
+    </div>
+    <script type="text/javascript" src="./js/Chart.js"></script>
+    <script type="text/javascript" src="./js/selectionSort.js"></script>
+  </body>
+</html>
