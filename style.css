@@ -1,0 +1,81 @@
+body{
+  font-family: 'Open Sans';
+  padding:0px;
+  margin:0px;
+}
+
+/*
+  General css options
+*/
+
+.default_button {
+  background-color: rgba(52, 73, 94,0.7); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: 0.7s;
+}
+
+.default_button:hover{
+ cursor: pointer;
+ transition: 0.7s;
+ background-color:  rgba(52,73,94,1);
+}
+.danger_button {
+  background-color: rgb(231, 76, 60,0.7); /* red*/
+  border: none;
+  color: white;
+  padding: 15px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: 0.7s;
+}
+.danger_button:hover{
+  cursor: pointer;
+  transition: 0.7s;
+  background-color:  rgb(231, 76, 60,1); /* red*/
+}
+
+label{
+  margin-left: 20px;
+  margin-right:20px;
+}
+
+.active{
+  font-size:24px;
+  opacity:1;
+}
+
+.menu{
+  background-color: #ecf0f1;
+  width:15%;
+  height:100vh;
+  float:left;
+}
+.col-lg-9{
+  margin-left:2%;
+  width:80%;
+  float:left;
+  height:100vh;
+}
+.menu ul{
+  padding-left:0px;
+}
+.menu ul li{
+  margin-top:5px;
+  margin-bottom:5px;
+  font-size:16px;
+  opacity:0.8;
+  text-align: center;
+  list-style: none;
+}
+.menu ul li a{
+  color:#333;
+  text-decoration: none;
+}
